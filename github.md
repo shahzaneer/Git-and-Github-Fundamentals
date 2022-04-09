@@ -13,6 +13,9 @@
 - `git rm fileName.ExtensionName` file will be deleted from the git repo and it will also be staged . The next step will be to commit! When you do this manually it is not staged!
 - `git mv currentFileName.ExtensionName newFileName.ExtensionName` file will be renamed and it will be staged as well. The next step will be to commit! When you do this manually it is not staged!
 
+- when a file is being already tracked and then we add it to the gitignore then we modify it. It should not be shown modified now according to our concept but it is shown! for this purpose we have to exclude such files explicitly!
+- `git rm --cached fileName.ExtensionName ` it will remove the already tracked file from the git scenerio. However it will remain in the project!
+
 
 
 ## Few Important Linux Commands
