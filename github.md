@@ -8,7 +8,8 @@
 - `git diff` compares the working area and stagging area
 
 - `git commit -a -m "direct commit" ` It will directly commit the tracked files (the already staged file). however the untracked files will not be committed!
-- 
+- `git log` will display all the commits and who commit them also! by pressing `q` you will be out of git log command.
+-  
 
 ## Few Important Linux Commands
 - `Git Bash` is based upon the linux OS therefore you can only use linux commands to navigate in the git repository.
