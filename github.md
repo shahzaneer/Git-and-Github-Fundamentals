@@ -7,6 +7,9 @@
 - `*.extensionName` if included in the gitignore folder then all those files will be ignored!
 - `git diff` compares the working area and stagging area
 
+- `git commit -a -m "direct commit" ` It will directly commit the tracked files (the already staged file). however the untracked files will not be committed!
+- 
+
 ## Few Important Linux Commands
 - `Git Bash` is based upon the linux OS therefore you can only use linux commands to navigate in the git repository.
 1. `pwd` Present working directory
