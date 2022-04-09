@@ -15,6 +15,9 @@
 
 - when a file is being already tracked and then we add it to the gitignore then we modify it. It should not be shown modified now according to our concept but it is shown! for this purpose we have to exclude such files explicitly!
 - `git rm --cached fileName.ExtensionName ` it will remove the already tracked file from the git scenerio. However it will remain in the project!
+- `git log  ` To inspect and compare the git repo changes  (it only shows the commits)
+- `git log --stat` it shows the changes in the commits as well! In short thr general statistics of the all the commits!
+
 
 
 
