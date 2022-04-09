@@ -11,6 +11,9 @@
 - `git log` will display all the commits and who commit them also! by pressing `q` you will be out of git log command.
 -  You can manually delete or rename files from the git repo but it can be done using git bash!
 - `git rm fileName.ExtensionName` file will be deleted from the git repo and it will also be staged . The next step will be to commit! When you do this manually it is not staged!
+- `git mv currentFileName.ExtensionName newFileName.ExtensionName` file will be renamed and it will be staged as well. The next step will be to commit! When you do this manually it is not staged!
+
+
 
 ## Few Important Linux Commands
 - `Git Bash` is based upon the linux OS therefore you can only use linux commands to navigate in the git repository.
