@@ -5,6 +5,7 @@
 - you need to add the remote repository only once!
 - `.gitignore` is the file where you keep the names of those files you want git to ignore!
 - `*.extensionName` if included in the gitignore folder then all those files will be ignored!
+- `git diff` compares the working area and stagging area
 
 ## Few Important Linux Commands
 - `Git Bash` is based upon the linux OS therefore you can only use linux commands to navigate in the git repository.
@@ -14,3 +15,5 @@
 4. `clear` clear the terminal
 5. `shift + insert` = ctrl + V = Paste
 6. `touch filename.extensionName` to make an empty file!
+7. `ctrl plus +` will zoom-in in the terminal
+8. `ctrl plus -` will zoom-out in the terminal
