@@ -1,3 +1,9 @@
+# Git (Version Control System)
+`Git` is software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development. Its goals include speed, data integrity, and support for distributed, non-linear workflows
+Read The git Docs for Further information:
+- https://git-scm.com/doc
+***
+
 # Github Commands
 - `rm -rf .git` is used to remove the git folder
 - you can simply delete the git folder from your PC to remove it.
@@ -17,6 +23,21 @@
 - `git rm --cached fileName.ExtensionName ` it will remove the already tracked file from the git scenerio. However it will remain in the project!
 - `git log  ` To inspect and compare the git repo changes  (it only shows the commits)
 - `git log --stat` it shows the changes in the commits as well! In short thr general statistics of the all the commits!
+- `git log --pretty=oneline` it will show each git commit in one line!
+- `git log --pretty=short` it will show each git commit shortly 
+- `git log --pretty=full` it will show each commit in detail.
+- `Author` is a person who created the file first time!
+- `Commiter` is anyone who commit some changes in that file!
+- `git log --since=2.days` it will show your commits for the last 2 days
+- `git log --since=2.weeks` it will show your commits for the last 2 weeks
+- `git log --since=2.years` it will show your commits for the last 2 years
+- `git log --since=2.hours` it will show your commits for the last 2 hours
+- `git log --since=2.minutes` it will show your commits for the last 2 Minutes
+- `git log --pretty=format: "%h -- %an" ` We can use these specific formats which can be found on `https://git-scm.com/docs/pretty-formats`
+
+
+
+
 
 
 
