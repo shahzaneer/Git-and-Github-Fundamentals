@@ -1,6 +1,6 @@
 
 # Github Commands
-``` gitbash
+``` linux
 rm -rf .git
 ```
 -  is used to remove the git folder
