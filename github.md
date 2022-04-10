@@ -1,17 +1,29 @@
 
 # Github Commands
-``` linux
+``` 
 rm -rf .git
 ```
 -  is used to remove the git folder
 - you can simply delete the git folder from your PC to remove it.
 - Once remote Location is added you can simply use push command to work directly!
 - you need to add the remote repository only once!
-- ```.gitignore``` is the file where you keep the names of those files you want git to ignore!
-- ```*.extensionName``` if included in the gitignore folder then all those files will be ignored!
-- ```git diff``` compares the working area and stagging area
+- ```
+.gitignore
+``` 
+- is the file where you keep the names of those files you want git to ignore!
+```
+*.extensionName
+```
+- if included in the gitignore folder then all those files will be ignored!
+```
+git diff
+``` 
+- compares the working area and stagging area
 
-- ```git commit -a -m "direct commit" ``` It will directly commit the tracked files (the already staged file). however the untracked files will not be committed!
+```
+git commit -a -m "direct commit" 
+```
+- It will directly commit the tracked files (the already staged file). however the untracked files will not be committed!
 - ```git log``` will display all the commits and who commit them also! by pressing `q` you will be out of git log command.
 -  You can manually delete or rename files from the git repo but it can be done using git bash!
 - ```git rm fileName.ExtensionName``` file will be deleted from the git repo and it will also be staged . The next step will be to commit! When you do this manually it is not staged!
