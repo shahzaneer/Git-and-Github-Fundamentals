@@ -1,6 +1,9 @@
 
 # Github Commands
-```rm -rf .git linux``` is used to remove the git folder
+``` gitbash
+rm -rf .git
+```
+-  is used to remove the git folder
 - you can simply delete the git folder from your PC to remove it.
 - Once remote Location is added you can simply use push command to work directly!
 - you need to add the remote repository only once!
