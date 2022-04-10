@@ -30,7 +30,6 @@
 - `git log --since=2.minutes` it will show your commits for the last 2 Minutes
 - `git log --pretty=format: "%h -- %an" ` We can use these specific formats which can be found on 
 [pretty formats](https://git-scm.com/docs/pretty-formats)
-<<<<<<< HEAD
 - `git log -p -1` it will show the complete details of last commit!
 - `git log -p -2` for last two commits and so no!
 - `git commit --ammend` Will open the VIM terminal where the last commit can be seen and the commit message along with the new commit changes can be merged.
