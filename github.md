@@ -28,7 +28,8 @@
 - `git log --since=2.years` it will show your commits for the last 2 years
 - `git log --since=2.hours` it will show your commits for the last 2 hours
 - `git log --since=2.minutes` it will show your commits for the last 2 Minutes
-- `git log --pretty=format: "%h -- %an" ` We can use these specific formats which can be found on `https://git-scm.com/docs/pretty-formats`
+- `git log --pretty=format: "%h -- %an" ` We can use these specific formats which can be found on 
+![pretty formats](https://git-scm.com/docs/pretty-formats)
 
 
 
