@@ -9,7 +9,7 @@ ssh-keygen -t rsa -b 4096 -C "yourEmailID@gmail.com"
 ```
 - Enter , Enter , Enter ,Enter
 ```
-eval "$(ssh-agent - s)"
+eval "$(ssh-agent -s)"
 ```
 - Enter
 ```
