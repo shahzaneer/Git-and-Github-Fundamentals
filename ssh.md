@@ -3,7 +3,9 @@
 https://docs.github.com/en/authentication/connecting-to-github-with-ssh
 
 ***
-```ssh -keygen -t rsa -b 4096 -C "yourEmailID@gmail.com"
+```
+ssh -keygen -t rsa -b 4096 -C "yourEmailID@gmail.com"
+
 ```
 - Enter , Enter , Enter ,Enter
 ```
