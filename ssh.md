@@ -20,6 +20,7 @@ ssh-add ~/.ssh/id_ed25519
 ```
 clip < ~/.ssh/id_ed25519.pub
 ``` 
+BY the above command your SSH key is copied to your clipboard
 
-- Now add the paste in github SSH key 
+- Now  paste SSH Key in Github Account 
 
