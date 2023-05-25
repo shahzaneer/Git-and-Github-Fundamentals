@@ -10,4 +10,4 @@ Read The git Docs for Further information:
 # Git vs Github
 ![gitvsgithub](/gitvsgithubpng.png)
 # Remote Vs Local Repository
-![gitvsgithub](/gitandgithubrepo.png)
+![gitvsgithub](/GitBasics/gitandgithubrepo.png)
