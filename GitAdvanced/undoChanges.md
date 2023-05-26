@@ -13,3 +13,8 @@
 - `git push -f origin <branch-name>`
 - The hash code should be of that commit you want to remove.
 - branch name should be of remote branch currently active.
+
+# How to move at a particular commit state?
+
+- It unstages the commits It doesn't remove the data!
+- `git reset <hash-code>`
