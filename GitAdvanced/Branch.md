@@ -28,10 +28,17 @@
 - Fetches the latest changes from the remote repository named "origin" and Attempts to integrate those changes into your current local branch.
 - If there are no conflicts (changes from both local and remote branches don't modify the same lines of code), the merge/rebase is successful.
 - If there are conflicts (changes overlap), you'll need to manually resolve them before the integration is complete.
-- To maintain the forked branch data and the original data we can use the `upstream fetch` button which appears on GitHub. We can also do it by `git fetch --all --prune`
+- To maintain the forked branch data and the original data we can use the `upstream fetch` button which appears on GitHub. We can also do it by `git fetch --all --prune` & `git pull` if there is any merge conflict it will tell you to resolve conflicts internally.
+- `git remote add upstream <upstream_repository_url>` We can use it to add the upstream repository link to the forked repository. It is then kept up-to-date with the help of `git fetch` and `git merge` (actually merge the changes of remote repo to local one) respectively.
 
-`git remote add upstream <upstream_repository_url>` We can use it to add the upstream repository link to the forked repository. It is then kept up-to-date with the help of `git fetch` and `git merge` respectively
+## How to delete a branch when you are done working with it?
+#### Local repo's Branch deletion:
+- `git branch -d <branch_name>`
 
+#### Remote repo's Branch deletion:
+- `git push origin <branch_name> -d`
+
+---
 ## One branch can only open one pull-request we cannot open more pull requests against a single branch
 
 # One branch -> one pull request!
