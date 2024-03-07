@@ -31,3 +31,6 @@ To squash commits, you typically use the `interactive rebase feature` in Git. He
 - If you have already pushed the branch, it's best to coordinate with other team members and make sure they are aware of the changes before squashing commits.
 
 - Squashing commits can help create a more coherent and manageable commit history, making it easier to understand and review the changes made in a branch or feature before merging it into the main branch.
+
+
+a 
