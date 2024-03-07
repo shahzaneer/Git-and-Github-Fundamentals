@@ -36,3 +36,4 @@ To squash commits, you typically use the `interactive rebase feature` in Git. He
 a 
 b
 c
+d
