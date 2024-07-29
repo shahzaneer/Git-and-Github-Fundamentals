@@ -6,6 +6,8 @@ Read The git Docs for Further information:
 - https://git-scm.com/doc
 
 ---
+![Git-and-Github-Fundamentals](https://socialify.git.ci/shahzaneer/Git-and-Github-Fundamentals/image?description=1&forks=1&issues=1&language=1&name=1&owner=1&pattern=Floating%20Cogs&pulls=1&stargazers=1&theme=Dark)
+
 
 ![Version Control System](/git.png)
 
